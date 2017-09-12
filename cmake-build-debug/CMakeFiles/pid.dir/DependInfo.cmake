@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/src/PID.cpp" "/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/CMakeFiles/pid.dir/src/PID.cpp.o"
-  "/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/src/main.cpp" "/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/CMakeFiles/pid.dir/src/main.cpp.o"
+  "/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/src/PID.cpp" "/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/CMakeFiles/pid.dir/src/PID.cpp.o"
+  "/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/src/main.cpp" "/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/CMakeFiles/pid.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug"/>
+				<Option working_dir="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug"/>
+				<Option working_dir="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug"/>
+				<Option working_dir="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pid">
-				<Option output="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/pid" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug"/>
+				<Option output="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/pid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 pid"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 pid"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pid/fast">
-				<Option output="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/pid" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug"/>
+				<Option output="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/pid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,23 +77,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 pid/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 pid/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/src/PID.cpp">
+		<Unit filename="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/src/PID.cpp">
 			<Option target="pid"/>
 		</Unit>
-		<Unit filename="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/src/PID.h">
+		<Unit filename="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/src/PID.h">
 			<Option target="pid"/>
 		</Unit>
-		<Unit filename="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/src/main.cpp">
+		<Unit filename="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/src/main.cpp">
 			<Option target="pid"/>
 		</Unit>
-		<Unit filename="/home/mfc/projects/CarND/Term2/CarND-PID-Control-Project/CMakeLists.txt">
+		<Unit filename="/home/mfc/projects/udacity/carnd-t2-p4-PID-Control-Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
