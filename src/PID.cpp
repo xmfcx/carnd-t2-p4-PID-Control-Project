@@ -31,9 +31,13 @@ double PID::TotalError() {
   const double p_term = Kp * p_error;
   const double i_term = Ki * i_error;
   const double d_term = Kd * d_error;
-  const double sum = p_error + i_error + d_error;
+
   const double total = p_term + i_term + d_term;
 
   return total;
+}
+
+void PID::SetError(double cte) {
+  i_error = cte / Ki;
 }
 

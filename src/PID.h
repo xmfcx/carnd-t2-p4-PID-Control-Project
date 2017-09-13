@@ -38,6 +38,11 @@ public:
     void UpdateError(double cte);
 
     /*
+    * Hard Set the PID error.
+    */
+    void SetError(double cte);
+
+    /*
     * Calculate the total PID error.
     */
     double TotalError();
