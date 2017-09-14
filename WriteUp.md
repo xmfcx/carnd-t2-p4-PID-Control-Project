@@ -50,9 +50,34 @@ This error tells us how fast the `cte` is changing.
 And it allows us to change the adaptive speed of the PID controller.
 It helps us to stabilize the PID controller.
 
-* Making `c_P` too big will make the PID controller 
+* Making `c_P` too big will make the PID controller too slow to react to changes made although it adds 
+smoothness through time.
 
-* Making `c_P` too 
+* Making `c_P` too small will make the PID controller jittery, overreactive like it was as if this was 0.
 
+Therefore we should set it in a way that it just adds enough smoothness and stabilization to our error
+and not make it too loose.
 
 > Describe how the final hyperparameters were chosen.
+
+I followed the wiki article on manual tuning: https://en.wikipedia.org/wiki/PID_controller#Manual_tuning
+
+Basically considering all the things I have explained in previous question, I tweaked P, I and D one after the other.
+Also, I have made another PID controller to control the speed. I can set speed whatever I want and car goes
+at that cruise speed by controlling the throttle.
+
+I have realized that different speeds require different PID coefficients. 
+Because at higher speeds;
+
+* turns require faster and harder steer actions, requiring `P` and `I` to be higher then average.
+
+* straight roads require lower steering actions and higher `D` coefficient values with smaller `P` and `I`.
+
+So, I tuned my PID controller to be able to go well in 30 to 50 mph. You can play around with the speed_target value in
+
+https://github.com/xmfcx/carnd-t2-p4-PID-Control-Project/blob/master/src/main.cpp#L57
+
+to test it in different speeds. In 50mph it might be a little bit jittery but in 40mph it will be just fine.
+
+I have managed to make it go at 60mph without ever crashing too but it was driving like a madman so I did not include that
+here because you would think I didn't set things correctly because of unusual driving behaviour.
