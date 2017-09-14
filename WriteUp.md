@@ -3,11 +3,17 @@
 > Describe the effect each of the `P`, `I`, `D` components had in your implementation.
 
 `cte` = Cross Track Error
+
 `c_P` = P coefficient
+
 `c_I` = I coefficient
+
 `c_D` = D coefficient
+
 `e_P` = P error
+
 `e_I` = I error
+
 `e_D` = D error
 
 ### `P`roportional Error
@@ -18,6 +24,7 @@ And it directly affects the error by a proportion.
 It's effect is instantenous relative to the size of our error.
 
 * Making `c_P` too big will cause hard oscillations.
+
 * Making `c_P` too small will cause slow error correction.
 
 Therefore we should set it in such a way that it gracefully steers the wheel while not being too slow.
