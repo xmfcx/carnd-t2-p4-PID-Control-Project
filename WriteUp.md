@@ -1,7 +1,7 @@
 # Reflection
 
 ## Video of it functioning:
-https://www.youtube.com/edit?o=U&video_id=SNh-jaYWs3g
+https://www.youtube.com/watch?v=SNh-jaYWs3g
 
 > Describe the effect each of the `P`, `I`, `D` components had in your implementation.
 
